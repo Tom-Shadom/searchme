@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 5px;
+    background-image: url(searchmebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    max-width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: ". . check"
+        ". photo ."
+        ". intro ."
+        ". intro .";
+}
+
+.check {
+    grid-area: check;
+    text-align: center;
+}
+
+.photo {
+    grid-area: photo;
+    text-align: center;
+
+}
+
+.photo img {
+    position: relative;
+    width: 60%;
+    height: auto;
+}
+
+.intro {
+    grid-area: intro;
+    text-align: center;
+
+}
+
+/**.check {
+    text-align: right;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    color: white;
+}**/
+
+.pur {
+    color: #cb34aa;
+}
+
+.gre {
+    color: #0bf927;
+}
+
+a {
+    text-decoration: none;
+    color: #42cfd8;
+}
